@@ -1,0 +1,16 @@
+/* Layer architecture */
+@layer base, theme, layouts, components;
+
+/* Base */
+@import url(base/reset.css) layer(base);
+@import url(base/base.css) layer(base);
+@import url(base/theme.css) layer(theme);
+@import url(base/typography.css) layer(theme);
+
+/* Layouts */
+@import url(components/main.css) layer(layouts);
+@import url(components/grid-container.css) layer(layouts);
+
+/* Components */
+@import url(components/header.css) layer(components);
+@import url(components/item.css) layer(components);

@@ -1,0 +1,13 @@
+:root {
+  /* Font size */
+  --font-medium: 1.5rem;
+  --font-regular: 1.25rem;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: var(--color-black);
+}
