@@ -4,8 +4,8 @@
 /* Base */
 @import url(base/reset.css) layer(base);
 @import url(base/base.css) layer(base);
+@import url(base/typography.css) layer(base);
 @import url(base/theme.css) layer(theme);
-@import url(base/typography.css) layer(theme);
 
 /* Layouts */
 @import url(components/main.css) layer(layouts);
